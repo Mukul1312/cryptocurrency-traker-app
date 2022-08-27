@@ -52,7 +52,7 @@ a:hover{
     width: 100%;
 }
 .logo{
-    margin:0 0 0 15px;
+    margin:0 0 0 15px !important;
 }
 .logo a{
     color: white !important;
@@ -74,7 +74,7 @@ a:hover{
     align-items: center;
 }
 
-@media screen and (max-width:1300px){
+/* @media screen and (max-width:1300px){
     .main{
         margin-left: 50px;
     }
@@ -90,11 +90,12 @@ a:hover{
     .main{
         margin-left: 100px;
     }
-}
+} */
 
-
+/*
+*/
 @media screen and (max-width:800px){
-
+    
     .app{
         flex-direction: column;
         overflow: hidden;
@@ -106,7 +107,7 @@ a:hover{
     
     .main{
         flex: 1;
-        margin-top: 90px;
+        margin-top: 80px;
         margin-left: 0px;
         margin-right: 10px;
     }
@@ -124,17 +125,38 @@ a:hover{
     }
     
     
+    /*
     .ant-menu{
         position: absolute;
         right: 0px;
     }
+    */
     .home-title{
         font-size: 1.4rem !important;
     }
     .show-more{
         font-size: 1.3rem !important;
     }
+    /*
+     */
 }
+
+/* Styling the homepage */
+
+/* @media screen and (max-width: 500px){
+    .heading{
+        margin-top: 20px;
+    }
+}  */
+
+/* Styling the Cryptocurrencies componennt */
+
+@media screen and (max-width: 500px){
+    .crypto-card{
+        margin: auto !important;
+    }
+}
+
 
 .coin-detail-container{
     margin: 30px;
@@ -174,6 +196,8 @@ a:hover{
     align-items: center;
     gap: 40px;
 }
+
+/* It's an unused property */
 
 /* .stats-container h2{
     font-weight: 700;
@@ -218,6 +242,8 @@ a:hover{
     margin-top: 40px;
     padding-top: 20px;
 }
+
+/* Unused Property */
 
 /* .coin-desc-link h2{
 font-weight: 700;
@@ -264,7 +290,6 @@ color: var(--pink);
 .coin-link:hover, .coin-stats:hover{
     background-color: var(--bgSecondary);
 }
-
 @media screen and (max-width:1000px){
     .stats-container{
         flex-direction: column;
@@ -272,24 +297,23 @@ color: var(--pink);
     .coin-desc-link{
         flex-direction: column;
     }
+    /*
     .stats-container h2{
         margin-top: 0px;
     }
+    */
 }
 
 @media screen and (max-width: 500px){
-    .coin-links{
-        padding: 0px;
-    }
     .coin-detail-container{
         margin: 0;
     }
-}
-@media screen and (max-width: 500px){
-    .heading{
-        margin-top: 20px;
+
+    .coin-links{
+        padding: 0px;
     }
 }
+
 
 .select-news{
     width: 180px;
@@ -320,7 +344,7 @@ color: var(--pink);
 }
 .provider-name{
     margin-left: 10px;
-}
+} 
 .chart-header{
     margin-top: 10px;
     display: flex;

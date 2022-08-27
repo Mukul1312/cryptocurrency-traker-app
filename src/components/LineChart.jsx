@@ -61,7 +61,7 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
         <Row className='chart-header'>
             <Typography.Title level={4} className="chart-title">Price Chart</Typography.Title>
             <Col className='price-container'>
-                <Typography.Title level={5} style={{color: priceChange.includes('-') ? 'red' : 'green'}}>{priceChange}%</Typography.Title>
+                <Typography.Title level={5} style={{color: priceChange?.includes('-') ? 'red' : 'green'}}>{priceChange}%</Typography.Title>
                 <Typography.Title level={5} className="current-price">Current {coinName} Price: ${currentPrice}</Typography.Title>
             </Col>
         </Row>
