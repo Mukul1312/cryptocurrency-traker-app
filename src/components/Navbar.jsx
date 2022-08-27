@@ -5,7 +5,7 @@ import { HomeOutlined, BulbOutlined, FundOutlined, MenuOutlined } from '@ant-des
 
 import icon from '../images/cryptocurrency.png'
 
-const Navbar = () => {
+const Navbar = ({location}) => {
 
     const [activeMenu, setActiveMenu] = useState(true);
     const [screenSize, setScreenSize] = useState(null);
@@ -19,6 +19,10 @@ const Navbar = () => {
 
         return () => window.removeEventListener('resize', handleResize);
     }, []);
+
+    useEffect(() => {
+        setActiveMenu(false)
+    }, [location.pathname])
 
     useEffect(() => {
       if(screenSize < 768) {

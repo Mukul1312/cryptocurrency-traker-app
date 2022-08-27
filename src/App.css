@@ -38,7 +38,6 @@ a:hover{
 .nav-container{
     position: fixed;
     left: 0;
-    /* margin: 10px; */
     height: 100vh;
     margin: 0px;
     background-color: rgb(0, 21, 41);
@@ -74,7 +73,7 @@ a:hover{
     align-items: center;
 }
 
-/* @media screen and (max-width:1300px){
+@media screen and (max-width:1300px){
     .main{
         margin-left: 50px;
     }
@@ -90,12 +89,11 @@ a:hover{
     .main{
         margin-left: 100px;
     }
-} */
+}
 
-/*
-*/
 @media screen and (max-width:800px){
     
+    /* app component*/
     .app{
         flex-direction: column;
         overflow: hidden;
@@ -112,6 +110,7 @@ a:hover{
         margin-right: 10px;
     }
 
+    /* navbar component */
     .nav-container{
         height: 8vh;
         position:fixed;
@@ -124,37 +123,28 @@ a:hover{
         display: block !important;
     }
     
-    
-    /*
     .ant-menu{
         position: absolute;
         right: 0px;
     }
-    */
+
+    /* Homepage component */
     .home-title{
         font-size: 1.4rem !important;
     }
     .show-more{
         font-size: 1.3rem !important;
     }
-    /*
-     */
-}
 
-/* Styling the homepage */
-
-/* @media screen and (max-width: 500px){
-    .heading{
-        margin-top: 20px;
-    }
-}  */
-
-/* Styling the Cryptocurrencies componennt */
-
-@media screen and (max-width: 500px){
+    /*Cryptocurrencies componennt */
     .crypto-card{
         margin: auto !important;
-    }
+    }   
+}
+
+
+@media screen and (max-width: 500px){
+
 }
 
 
@@ -197,15 +187,6 @@ a:hover{
     gap: 40px;
 }
 
-/* It's an unused property */
-
-/* .stats-container h2{
-    font-weight: 700;
-    font-size: 1.4rem;
-    margin-top: 20px;
-    color: var(--pink);
-} */
-
 .coin-details-heading{
     margin-top: 20px !important;
     color: var(--pink) !important;
@@ -242,14 +223,6 @@ a:hover{
     margin-top: 40px;
     padding-top: 20px;
 }
-
-/* Unused Property */
-
-/* .coin-desc-link h2{
-font-weight: 700;
-color: var(--pink);
-} */
-
 
 .coin-desc-link p{
     font-size: 1rem;
@@ -297,11 +270,6 @@ color: var(--pink);
     .coin-desc-link{
         flex-direction: column;
     }
-    /*
-    .stats-container h2{
-        margin-top: 0px;
-    }
-    */
 }
 
 @media screen and (max-width: 500px){
@@ -317,7 +285,6 @@ color: var(--pink);
 
 .select-news{
     width: 180px;
-
 }
 .news-card{
     min-height: 300px !important;
@@ -350,7 +317,6 @@ color: var(--pink);
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    /* color: #0071bd; */
 }
 .chart-title{
     margin: 0 !important;
@@ -376,11 +342,7 @@ color: var(--pink);
 .show-more{
     margin-top: 0px !important;
 }
-/*
-.exchange-image{
-    margin: 0px 10px !important;
-}
-*/
+
 .search-crypto{
     margin: 20px auto 30px auto;
     width: 250px;
@@ -391,6 +353,7 @@ color: var(--pink);
 .crypto-card{
     min-width: 250px;
 }
+
 .crypto-card .crypto-image{
     width:35px;
 }
