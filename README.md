@@ -1,40 +1,68 @@
-
 # Cryptoverse
 
-Cryptoverse is a tracking app that uses Coin Ranking api & Bing News api to provide all the necessary details of cryptocurrencies.
+-   Cryptoverse is a cryptocurrency tracking app.
+-   It utilizes the Coin Ranking API and Bing News API for data retrieval.
+-   Provides users with details of cryptocurrencies including prices, market caps, and volume.
+-   Offers price charts and analysis using ChartJS.
+-   Built with React, Redux Toolkit, and Ant Design.
+-   Ensures real-time and accurate data through the Coin Ranking API.
+-   Integrates the Bing News API to deliver the latest news and updates.
+-   Aims to empower users with comprehensive cryptocurrency information for informed decision-making.
 
-#### Develop with ![heart-svgrepo-com (1) (1) (1)](https://user-images.githubusercontent.com/84818958/187052761-7ec59401-b3a2-4550-aa7e-e823861742b4.svg) by Mukul Dubey
-## Demo
+## Usage and Demo
+To see Cryptoverse in action, visit: [https://sankalp-mpgi.netlify.app/](https://sankalp-mpgi.netlify.app/).
 
-https://md-cryptoverse.netlify.app/
+A demo video is also available for an overview of the features and functionality.
 
-[demo.webm](https://user-images.githubusercontent.com/84818958/187052260-da671eba-f664-4678-92a7-419f06368db7.webm)
+<video controls width="250">
+    <source src="https://github.com/Mukul1312/sankalp_club/assets/84818958/cab741c9-6a1c-4535-a3c5-4ff1633ac468">
+</video>
 
-## Tech Stack
-- ReactJS
-- Vanilla CSS
-- Ant Design
-- Redux
-- ChartJS
+
+## Technologies used
+* React 17.0.2
+* MongoDB
+* NodeJS
+* ExpressJS
+* REST
+
+## Installation Setup
+To install and run Cryptoverse, follow these steps:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/cryptocurrency-tracker-app.git
+```
+
+2. Navigate to the project's root folder:
+```bash
+cd cryptocurrency-tracker-app
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm start
+```
+
+Cryptoverse is compatible with Windows, macOS, and Linux operating systems. Ensure you have Git and Node.js (with npm) installed.
+
+Access the app at [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Dependencies
 
-- Chart.js & react-chartjs-2 used for making react component of ChartJS.
-- @reduxjs/toolkit & react-redux used for Redux as Centralized State and RTK Query.
-- antd and @ant-design/icons for using Styles and Icons.
-- millify  for converting long numbers into readable strings.
-- moment for parsing the javascript dates.
-- html-react-parser converts an HTML string to one or more React elements. 
-- react , react-dom , react-router-dom used for using ReactJS, JSX and build SPA.
+-   Chart.js & react-chartjs-2 used for making react component of ChartJS.
+-   @reduxjs/toolkit & react-redux used for Redux as Centralized State and RTK Query.
+-   antd and @ant-design/icons for using Styles and Icons.
+-   millify for converting long numbers into readable strings.
+-   moment for parsing the javascript dates.
+-   html-react-parser converts an HTML string to one or more React elements.
+-   react , react-dom , react-router-dom used for using ReactJS, JSX and build SPA.
 
-## Local Setup
 
-1. Clone a repository using the following link: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
-2. Then move into the root folder and install dependencies
-
-```bash
-  cd cryptocurrency-tracker-app
-  npm install
-```
-## Acknowledgements
+## Acknowledgments
 Thanks to JavaScript Mastery for providing such amazing tutorial video.
