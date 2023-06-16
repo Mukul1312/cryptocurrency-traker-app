@@ -14,17 +14,16 @@ To see Cryptoverse in action, visit: [https://sankalp-mpgi.netlify.app/](https:/
 
 A demo video is also available for an overview of the features and functionality.
 
-<video controls width="250">
-    <source src="https://github.com/Mukul1312/sankalp_club/assets/84818958/cab741c9-6a1c-4535-a3c5-4ff1633ac468">
-</video>
+[demo.webm](https://user-images.githubusercontent.com/84818958/187052260-da671eba-f664-4678-92a7-419f06368db7.webm)
+
 
 
 ## Technologies used
-* React 17.0.2
-* MongoDB
-* NodeJS
-* ExpressJS
-* REST
+- ReactJS
+- Vanilla CSS
+- Ant Design
+- Redux
+- ChartJS
 
 ## Installation Setup
 To install and run Cryptoverse, follow these steps:
