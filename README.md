@@ -10,7 +10,7 @@
 -   Aims to empower users with comprehensive cryptocurrency information for informed decision-making.
 
 ## Usage and Demo
-To see Cryptoverse in action, visit: [https://sankalp-mpgi.netlify.app/](https://sankalp-mpgi.netlify.app/).
+To see Cryptoverse in action, visit: [https://sankalp-mpgi.netlify.app/](https://md-cryptoverse.netlify.app//).
 
 A demo video is also available for an overview of the features and functionality.
 
